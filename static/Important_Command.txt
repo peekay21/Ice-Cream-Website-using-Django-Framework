@@ -1,0 +1,28 @@
+A. Basic Requirements to Build a website
+1. HTML
+2. CSS
+3. JAVASCRIPT
+
+B. django-admin startproject Hello
+Above command is used to create the django project name, Hello(Name of the project)
+
+C. python manage.py runserver
+used to run the created the project
+
+D. How websites works?
+There are two side in the websites a. webserver b. clients. Client sends the request to server for the website or webpage.
+Server send the response as combination of HTML,CSS, JAVASCRIPT file. Browser process the webpage and present it to client,
+in their understandable formats.
+
+E. Django Framework follows the M-V-T(Model-View-Template)
+user <--------> Django <------> URL <---------> VIEW <--------->Model
+                                                |
+                                                |
+                                               \/
+                                              Template
+F. python manage.py makemigrations
+G. python manage.py migrate
+H. python manage.py createsuperuser
+
+I. How to create a Model.
+

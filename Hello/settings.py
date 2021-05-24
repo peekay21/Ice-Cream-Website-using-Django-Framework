@@ -31,6 +31,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+
+    'home.apps.HomeConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -126,3 +128,6 @@ STATICFILES_DIRS =[
     os.path.join(BASE_DIR, 'static'),
     
 ]
+
+# manually add message library
+from django.contrib.messages import constants as messages
